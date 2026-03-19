@@ -1,0 +1,30 @@
+{
+  "name": "azeth-agent-starter",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "Build an AI agent with a wallet in 5 minutes — smart accounts, x402 payments, on-chain reputation",
+  "license": "MIT",
+  "scripts": {
+    "dev:client": "tsx src/client.ts",
+    "dev:server": "tsx src/server.ts",
+    "build": "tsc",
+    "start:client": "node dist/client.js",
+    "start:server": "node dist/server.js"
+  },
+  "dependencies": {
+    "@azeth/sdk": "^0.2.0",
+    "@azeth/provider": "^0.2.0",
+    "hono": "^4.7.0",
+    "@hono/node-server": "^1.13.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

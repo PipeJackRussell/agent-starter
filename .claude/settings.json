@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [],
+    "deny": []
+  },
+  "mcpServers": {
+    "azeth": {
+      "command": "npx",
+      "args": ["-y", "@azeth/mcp-server"],
+      "env": {
+        "AZETH_PRIVATE_KEY": "",
+        "AZETH_CHAIN": "baseSepolia"
+      }
+    }
+  }
+}

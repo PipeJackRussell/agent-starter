@@ -1,0 +1,34 @@
+# Azeth Agent Starter
+
+> Template for building AI agents with wallets — smart accounts, payments, reputation, and discovery.
+
+This is a GitHub template repository. Use it to quickly create an AI agent that can:
+- Create a non-custodial ERC-4337 smart account with guardian guardrails
+- Discover services by capability and reputation score
+- Pay for x402-gated APIs with automatic USDC settlement
+- Rate service providers on-chain after receiving responses
+- Serve x402-gated APIs with on-chain reputation
+
+## Two patterns included
+
+1. **Agent Consumer** (src/client.ts) — discovers and pays for services
+2. **Service Provider** (src/server.ts) — serves x402-gated APIs with smart account identity
+
+## Key insight: Providers need smart accounts
+
+Service providers MUST create Azeth smart accounts (not just EOA wallets) so that:
+- Other agents can rate them on the ERC-8004 trust registry
+- They appear in service discovery results
+- They build on-chain reputation over time
+
+## npm packages used
+
+- @azeth/sdk — TypeScript SDK
+- @azeth/provider — x402 payment middleware for Hono
+- @azeth/mcp-server — 32 MCP tools for Claude/Cursor
+
+## Links
+
+- Website: https://azeth.ai
+- GitHub: https://github.com/azeth-protocol
+- MCP Server: https://www.npmjs.com/package/@azeth/mcp-server
